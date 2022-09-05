@@ -1,0 +1,206 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.watches__container {
+  max-width: 700px;
+  margin: 10px auto;
+}
+
+.watches__title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.watches__content {
+  margin: 10px auto;
+}
+
+.watches__form-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.watches__form {
+  display: flex;
+  flex-direction: column;
+  margin-right: 25px;
+}
+
+.watches__form-title {
+  margin-bottom: 10px;
+}
+
+.watches__form-input {
+  height: 30px;
+  padding: 5px;
+}
+
+.watches__form-button {
+  display: flex;
+  align-items: flex-end;
+}
+
+.button {
+  height: 30px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.watches__display-wrapper {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 700px;
+}
+
+.watches__display {
+  max-width: 170px;
+  margin-right: 40px;
+  margin-bottom: 30px;
+}
+
+.watches__display > div {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.watches__display-title {
+  
+}
+
+.watches__display-button {
+  background-image: url("../img/close.png");
+  background-size: cover;
+  width: 20px;
+  height: 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.watches__display-clock {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  box-shadow: 0 2px 30px rgba(0, 0, 0, 0.2);
+  font-size: 24px;
+  color: #444;
+  text-align: center;
+  position: relative;
+}
+
+.watches__display-clock::after {
+  background: #aaa;
+  content: "";
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 2;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 2px solid #fff;
+}
+
+.hour_hand {
+  position: absolute;
+  width: 4px;
+  height: 40px;
+  background: #222;
+  top: 23%;
+  left: 49%;
+  transform-origin: bottom;
+}
+
+.min_hand {
+  position: absolute;
+  width: 3px;
+  height: 55px;
+  background: #444;
+  top: 13%;
+  left: 50%;
+  transform-origin: bottom;
+}
+
+.sec_hand {
+  position: absolute;
+  width: 2px;
+  height: 60px;
+  background: red;
+  top: 10%;
+  left: 50%;
+  transform-origin: bottom;
+}
+
+.watches__display-clock span {
+  position: absolute;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 700;
+  font-size: 13px;
+}
+
+.twelve {
+  top: 10px;
+  left: 46%;
+}
+
+.one {
+  top: 10%;
+  right: 26%;
+}
+
+.eleven {
+  top: 10%;
+  left: 26%;
+}
+
+.two {
+  top: 25%;
+  right: 10%;
+}
+
+.three {
+  right: 10px;
+  top: 46%;
+}
+
+.four {
+  right: 20px;
+  top: 65%;
+}
+
+.five {
+  right: 40px;
+  top: 80%;
+}
+
+.six {
+  bottom: 6px;
+  left: 49%;
+}
+
+.seven {
+  left: 44px;
+  top: 80%;
+}
+
+.eight {
+  left: 20px;
+  top: 66%;
+}
+
+.nine {
+  left: 10px;
+  top: 46%;
+}
+
+.ten {
+  top: 25%;
+  left: 10%;
+}
