@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Lifecycle-watches-React/static/css/main.12ed23b3.css",
+    "main.js": "/Lifecycle-watches-React/static/js/main.45185f9d.js",
+    "index.html": "/Lifecycle-watches-React/index.html",
+    "main.12ed23b3.css.map": "/Lifecycle-watches-React/static/css/main.12ed23b3.css.map",
+    "main.45185f9d.js.map": "/Lifecycle-watches-React/static/js/main.45185f9d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.12ed23b3.css",
+    "static/js/main.45185f9d.js"
+  ]
+}
